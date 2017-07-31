@@ -362,7 +362,7 @@ $att_model_m2->show_upload_column = true;
  * Do not do localisation here, i.e do not change "passed" by your national language.
  */ 
 $tlCfg->results['status_code'] = array('failed' => 'f','blocked' => 'b','passed' => 'p','not_run' => 'n',
-                                       'not_available' => 'x','unknown' => 'u','all' => 'a'); 
+                                       'not_available' => 'x','unknown' => 'u','all' => 'a', 'inconcluso' =>'i'); 
 
 
 /** 
@@ -384,7 +384,8 @@ $tlCfg->results['status_label'] = array('not_run' => 'test_status_not_run',
                                         'blocked'=> 'test_status_blocked',
                                         'all' => 'test_status_all_status',
                                         'not_available' => 'test_status_not_available',
-                                        'unknown' => 'test_status_unknown');
+                                        'unknown' => 'test_status_unknown',
+										'inconcluso' => 'test_status_inconcluso');
 
 // Is RIGHT to have this configuration DIFFERENT from $tlCfg->results['status_label'],
 // because you must choose to not allow some of previous status be available
@@ -406,7 +407,8 @@ $tlCfg->results['status_label'] = array('not_run' => 'test_status_not_run',
 $tlCfg->results['status_label_for_exec_ui'] = array('not_run' => 'test_status_not_run',
                                                     'passed'  => 'test_status_passed',
                                                     'failed'  => 'test_status_failed',
-                                                    'blocked' => 'test_status_blocked');
+                                                    'blocked' => 'test_status_blocked',
+													'inconcluso' => 'test_status_inconcluso');
 
 /** 
  * Selected execution result by default. Values is key from $tlCfg->results['status_label']
@@ -419,7 +421,7 @@ $tlCfg->results['default_status'] = 'not_run';
  * Colours should be compiant with definition in CSS 
  **/
 $tlCfg->results['charts']['status_colour'] = array('not_run' => '000000','passed'  => '006400',
-                                                   'failed'  => 'B22222','blocked' => '00008B');
+                                                   'failed'  => 'B22222','blocked' => '00008B', 'inconcluso'=>'808000');
 
 /*
  * arrays for new filter types (BUGID 2455, BUGID 3026)

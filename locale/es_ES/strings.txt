@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * ♔ TestLink Open Source Project - http://testlink.sourceforge.net/
  * This script is distributed under the GNU General Public License 2 or later.
@@ -313,6 +313,7 @@ $TLS_test_status_failed = "Fallado";
 $TLS_test_status_passed = "Pasado";
 $TLS_test_status_not_available = "No Disponible";
 $TLS_test_status_unknown = "Desconocido";
+$TLS_test_status_inconcluso = "Inconcluso";
 
 $TLS_review_status_valid = "Válido";
 $TLS_review_status_draft = 'Borrador';
@@ -1113,6 +1114,7 @@ $TLS_trep_failed = $TLS_test_status_failed;
 $TLS_trep_not_run = $TLS_test_status_not_run;
 $TLS_trep_passed = $TLS_test_status_passed;
 $TLS_trep_total = "Total";
+$TLS_trep_inconcluso = $TLS_test_status_inconcluso;
 
 
 
@@ -1951,6 +1953,7 @@ $TLS_results_latest = "Sólo Últimos Resultados";
 $TLS_results_all = "Todos los Resultados";
 $TLS_display_results_tc = "Resultados";
 $TLS_last_status_any = "Cualquiera";
+$TLS_last_status_inconcluso = "Inconcluso";
 $TLS_last_status_blocked = $TLS_test_status_blocked;
 $TLS_last_status_failed = $TLS_test_status_failed;
 $TLS_last_status_not_run = $TLS_test_status_not_run;
@@ -1988,6 +1991,7 @@ $TLS_th_test_plan = $TLS_testplan;
 $TLS_th_test_suites = "Suite(s) de Pruebas";
 $TLS_th_tester_id = "Tester";
 $TLS_th_total_block = "Nº" . $TLS_test_status_blocked;
+$TLS_th_total_inconcluso = "Nº" . $TLS_test_status_inconcluso;
 $TLS_th_total_cases = "Nº Casos de Prueba";
 $TLS_th_total_fail = "Nº" . $TLS_test_status_failed;
 $TLS_th_total_not_run = "Nº" . $TLS_test_status_not_run;
@@ -2045,6 +2049,7 @@ $TLS_req_title_blocked = "Requisitos Bloqueados";
 $TLS_req_title_failed = "Requisitos Fallados";
 $TLS_req_title_not_run = "Requisitos No Ejecutados";
 $TLS_req_title_passed = "Requisitos Pasados";
+$TLS_req_title_inconcluso = "Requisitos Inconclusos";
 
 
 
@@ -2455,6 +2460,7 @@ $TLS_category_header = "Suite de Pruebas =";
 $TLS_daterun = "Fecha de Ejecución";
 $TLS_last_status = "Último Estado";
 $TLS_number_blocked = "Nº " . $TLS_test_status_blocked;
+$TLS_number_inconcluso = "Nº " . $TLS_test_status_inconcluso;
 $TLS_number_cases = "Nº Casos de Prueba";
 $TLS_number_executions = "Nº Casos de Prueba Ejecutados";
 $TLS_number_failed = "Nº " . $TLS_test_status_failed;
@@ -2944,6 +2950,7 @@ $TLS_info_testCasesWithCF = "Este informe muestra todos los casos de prueba con 
 $TLS_link_charts = "Gráficos";
 $TLS_link_report_blocked_tcs = "Casos de Prueba Bloqueados";
 $TLS_link_report_failed = "Casos de Prueba Fallados";
+$TLS_link_report_inconclusos = "Casos de Prueba Inconclusos";
 $TLS_link_report_general_tp_metrics = "Métricas Generales del Plan de Pruebas";
 $TLS_link_report_by_tester_per_build = "Resultados por Tester y por Build";
 $TLS_link_assigned_tc_overview = "Resumen de Asignación de Casos de Prueba";

@@ -598,6 +598,9 @@ div.passed, div.failed, div.blocked, div.not_run {
 	padding: 		6px;
 	text-align: 	center;
 }
+div.conditional_inconcluso {
+background:	#808000; /* hanah */
+}
 
 div.passed {
 	background:		#006400; /* darkgreen */
@@ -649,6 +652,10 @@ span.light_unknown {
 	background: 		#DDFFFF; /* cyan; */
 }
 
+span.light_inconcluso{
+	
+	background:	#FFEECC; 
+}
 /* ***** render test result status (coloring background) ************************* */
 .passed {
 	color: 			white;
@@ -710,7 +717,13 @@ span.light_unknown {
 	color: 			#00FFFF; /* cyan; */
   font-weight: bold;
 }
+.inconcluso {
 
+color: white;
+
+background:	#808000; /* hanah */
+
+}
 
 /* ***** MISC ************************************************************************ */
 /* Please, be carefull to be consistent if you add a new definition */

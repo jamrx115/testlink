@@ -672,7 +672,7 @@ function initNameCache($guiObj)
 function getWarning($targetStatus,$statusCfg)
 {
   $msg = ''; 
-  $key2check = array('not_run','failed','blocked');
+  $key2check = array('not_run','failed','blocked','inconcluso');
   foreach($key2check as $statusVerbose)
   {
     if( $targetStatus == $statusCfg[$statusVerbose] )

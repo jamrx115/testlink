@@ -167,7 +167,14 @@ $tlCfg->reports_list['results_requirements'] = array(
 	'directLink' => '',
 	'format' => 'format_html'
 );
+$tlCfg->reports_list['list_tc_inconcluso'] = array( 
+'title' => 'link_report_inconcluso_tcs',
+'url' => 'lib/results/resultsByStatus.php?type=' . $tlCfg->results['status_code']['inconcluso'],
 
+'enabled' => 'all',
+
+'format' => 'format_html,format_ods,format_xls,format_mail_html'
+);
 
 // disabled TICKET 37006 - disabled uncovered_testcases report 
 //$tlCfg->reports_list['uncovered_testcases'] = array( 
