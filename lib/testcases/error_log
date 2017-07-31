@@ -1,0 +1,5 @@
+[03-Jun-2016 20:32:03 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error Processing Request - Invalid Test project id /home/alltic/public_html/testlink/lib/testcases/tcSearch.php' in /home/alltic/public_html/testlink/lib/testcases/tcSearch.php:377
+Stack trace:
+#0 /home/alltic/public_html/testlink/lib/testcases/tcSearch.php(34): init_args(Object(testproject))
+#1 {main}
+  thrown in /home/alltic/public_html/testlink/lib/testcases/tcSearch.php on line 377

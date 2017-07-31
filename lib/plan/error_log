@@ -1,0 +1,4 @@
+[19-Jul-2017 14:16:00 UTC] PHP Fatal error:  Call to a member function RecordCount() on a non-object in /home/alltic/public_html/testlink/lib/functions/database.class.php on line 516
+[19-Jul-2017 14:16:03 UTC] PHP Fatal error:  Call to a member function RecordCount() on a non-object in /home/alltic/public_html/testlink/lib/functions/database.class.php on line 516
+[21-Jul-2017 19:36:01 UTC] PHP Fatal error:  Call to a member function RecordCount() on a non-object in /home/alltic/public_html/testlink/lib/functions/database.class.php on line 516
+[21-Jul-2017 22:22:52 UTC] PHP Fatal error:  Call to a member function RecordCount() on a non-object in /home/alltic/public_html/testlink/lib/functions/database.class.php on line 516
