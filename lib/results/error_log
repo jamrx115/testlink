@@ -1,0 +1,7 @@
+[31-Jan-2018 15:58:31 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'tlTestPlanMetrics::helperGetExecCounters - Can not work with empty build set' in /home/alltic/public_html/testlink/lib/functions/tlTestPlanMetrics.class.php:1587
+Stack trace:
+#0 /home/alltic/public_html/testlink/lib/functions/tlTestPlanMetrics.class.php(1845): tlTestPlanMetrics->helperGetExecCounters(NULL, Array, Array)
+#1 /home/alltic/public_html/testlink/lib/functions/tlTestPlanMetrics.class.php(1464): tlTestPlanMetrics->helperBuildSQLTestSuiteExecCounters(NULL, Array, Array)
+#2 /home/alltic/public_html/testlink/lib/results/resultsTC.php(79): tlTestPlanMetrics->getExecStatusMatrix(NULL, Array, NULL)
+#3 {main}
+  thrown in /home/alltic/public_html/testlink/lib/functions/tlTestPlanMetrics.class.php on line 1587
